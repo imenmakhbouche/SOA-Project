@@ -1,7 +1,7 @@
 package entities;
 
 import javax.xml.bind.annotation.XmlRootElement;
-
+import javax.xml.bind.annotation.XmlTransient;
 @XmlRootElement
 public class Option {
     private int codeOption;
